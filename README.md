@@ -5,22 +5,33 @@ This is an online bingo game. Here is the data diagram:
 [Join Game](README.md#join-game)
 
 
-Anti Up
+[Anti Up](README.md#anti-up)
 
 
-Draw Cards
-
-
-Draw Ball
-
-
-Daub Card
-
-
-Call Bing
+[Draw Cards](README.md#draw-cards)
 
 ## Join Game
-``` javascript
-document.getElementByID("demo").innerHTML = "Hello Dolly."
+This API allows user to join game, it uses the "get" HTTP method.
+
+Sample Call:
+``` HTTP
+HTTP://bingo.com/api/joingame?name=Coby
 
 ```
+
+This allows a player named Coby to join a game.
+
+Sample Responce
+```javascript
+{"status": "success"}
+```
+Sample Error
+```javascript
+{"status": "fail, player is not old enough"}
+```
+
+
+
+## Anti Up
+
+## Draw Cards
