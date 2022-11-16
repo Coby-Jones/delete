@@ -3,6 +3,8 @@ This is an online bingo game. Here is the data diagram:
 
 ## APIs
 Join Game
+
+
 Anti Up
 Draw Cards
 Draw Ball
