@@ -11,6 +11,6 @@ Call Bing
 
 ## Join Game
 ``` javascript
-document.getElement("demo").innerHTML = "Hello Dolly."
+document.getElementByID("demo").innerHTML = "Hello Dolly."
 
 ```
