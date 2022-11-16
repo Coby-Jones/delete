@@ -6,9 +6,17 @@ Join Game
 
 
 Anti Up
+
+
 Draw Cards
+
+
 Draw Ball
+
+
 Daub Card
+
+
 Call Bing
 
 ## Join Game
