@@ -2,7 +2,7 @@
 This is an online bingo game. Here is the data diagram:
 
 ## APIs
-Join Game/n
+Join Game
 Anti Up
 Draw Cards
 Draw Ball
@@ -11,6 +11,6 @@ Call Bing
 
 ## Join Game
 ``` javascript
-document.getElement()
+document.getElement("demo").innerHTML = "Hello Dolly."
 
 ```
